@@ -649,7 +649,9 @@ auth-user-pass
 auth none
 auth-nocache
 cipher none
+reneg-sec 0
 setenv opt block-outside-dns
+setenv CLIENT_CERT 0
 pull
 verb 3" >> /etc/openvpn/client-template.txt
 
